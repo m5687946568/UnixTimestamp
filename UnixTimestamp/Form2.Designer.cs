@@ -50,8 +50,7 @@
             this.button1.Location = new System.Drawing.Point(90, 260);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(70, 28);
-            this.button1.TabIndex = 14;
-            this.button1.TabStop = false;
+            this.button1.TabIndex = 53;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -61,8 +60,7 @@
             this.button2.Location = new System.Drawing.Point(214, 260);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(70, 28);
-            this.button2.TabIndex = 15;
-            this.button2.TabStop = false;
+            this.button2.TabIndex = 54;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -83,9 +81,19 @@
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.numericUpDown1.Location = new System.Drawing.Point(31, 27);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(55, 28);
-            this.numericUpDown1.TabIndex = 0;
+            this.numericUpDown1.TabIndex = 50;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox1
@@ -95,7 +103,7 @@
             this.textBox1.Location = new System.Drawing.Point(31, 44);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 28);
-            this.textBox1.TabIndex = 17;
+            this.textBox1.TabIndex = 51;
             this.textBox1.TextChanged += new System.EventHandler(this.Text_Change);
             // 
             // groupBox2
@@ -119,7 +127,7 @@
             this.textBox2.Location = new System.Drawing.Point(31, 104);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 28);
-            this.textBox2.TabIndex = 18;
+            this.textBox2.TabIndex = 52;
             this.textBox2.TextChanged += new System.EventHandler(this.Text_Change);
             // 
             // label2
