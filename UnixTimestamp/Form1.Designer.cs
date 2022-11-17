@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dateTimePicker_year = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker_mon = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker_day = new System.Windows.Forms.DateTimePicker();
@@ -236,6 +237,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimePicker_hour);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "UnixTimestamp";
             this.Load += new System.EventHandler(this.Form1_Load);

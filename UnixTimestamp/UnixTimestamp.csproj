@@ -5,7 +5,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWindowsForms>True</UseWindowsForms>
-    <ApplicationIcon>The Helm.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\128px.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,7 +17,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="The Helm.ico" />
+    <None Remove="Resources\32px.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\128px.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,10 +49,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>

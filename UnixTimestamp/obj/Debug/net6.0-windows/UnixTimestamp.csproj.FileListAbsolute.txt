@@ -1,9 +1,12 @@
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.exe
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.dll.config
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.deps.json
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.runtimeconfig.json
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.dll
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.csproj.AssemblyReference.cache
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.Form1.resources
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.Form2.resources
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.Properties.Resources.resources
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.csproj.GenerateResource.cache
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.AssemblyInfoInputs.cache
@@ -13,6 +16,3 @@ C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\refint\UnixTimestamp.dll
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.genruntimeconfig.cache
 C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\ref\UnixTimestamp.dll
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.Form2.resources
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Debug\net6.0-windows\UnixTimestamp.dll.config
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Debug\net6.0-windows\UnixTimestamp.Properties.Resources.resources

@@ -1,8 +1,0 @@
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.csproj.AssemblyReference.cache
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.Form1.resources
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.Form2.resources
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.csproj.GenerateResource.cache
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.AssemblyInfoInputs.cache
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.AssemblyInfo.cs
-C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\obj\Release\net5.0-windows\UnixTimestamp.csproj.CoreCompileInputs.cache
