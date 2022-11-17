@@ -1,0 +1,2 @@
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\publish\UnixTimestamp.dll.config
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\publish\UnixTimestamp.exe

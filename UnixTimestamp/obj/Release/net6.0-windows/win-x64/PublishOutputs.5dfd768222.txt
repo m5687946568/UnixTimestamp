@@ -1,0 +1,2 @@
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Release\net6.0-windows\publish\win-x64\UnixTimestamp.dll.config
+C:\Users\Test\source\repos\m5687946568\UnixTimestamp\UnixTimestamp\bin\Release\net6.0-windows\publish\win-x64\UnixTimestamp.exe
