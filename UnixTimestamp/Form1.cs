@@ -22,18 +22,18 @@ namespace UnixTimestamp
         [DllImport("kernel32")]
         static extern int GetPrivateProfileString(string section, string key, string def, StringBuilder retVal, int size, string filePath);
 
-        string ProfilePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\UnixTimestamp\";
+        string ProfilePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Hermit_Project\";
 
         string GPS(string ClassName, string KeyName)
         {
             StringBuilder sb = new StringBuilder(255);
-            GetPrivateProfileString(ClassName, KeyName, "", sb, 255, ProfilePath + @"Settings.ini");
+            GetPrivateProfileString(ClassName, KeyName, "", sb, 255, ProfilePath + @"UnixTimestamp.ini");
             return sb.ToString();
         }
 
         void WPS(string ClassName, string KeyName, string KeyValue)
         {
-            WritePrivateProfileString(ClassName, KeyName, KeyValue, ProfilePath + @"Settings.ini");
+            WritePrivateProfileString(ClassName, KeyName, KeyValue, ProfilePath + @"UnixTimestamp.ini");
         }
         #endregion
 
@@ -42,11 +42,10 @@ namespace UnixTimestamp
             if (!File.Exists(ProfilePath))
             {
                 Directory.CreateDirectory(ProfilePath);
-                if (!File.Exists(ProfilePath + @"Settings.ini"))
+                if (!File.Exists(ProfilePath + @"UnixTimestamp.ini"))
                 {
                     WPS("General", "UTC", TimeZoneInfo.Local.GetUtcOffset(DateTime.Now).TotalHours.ToString());
-                    WPS("General", "StartString", "");
-                    WPS("General", "EndString", "");
+                    WPS("General", "CustomString", "%UT%");
                 }
             }
 
@@ -62,8 +61,7 @@ namespace UnixTimestamp
         private void UTUpdata()
         {
             int iUTC = int.Parse(GPS("General", "UTC"));
-            string sStartString = GPS("General", "StartString");
-            string sEndString = GPS("General", "EndString");
+            string sCustomString = GPS("General", "CustomString");
             int iyear = dateTimePicker_year.Value.Year;
             int imon = dateTimePicker_mon.Value.Month;
             int iday = dateTimePicker_day.Value.Day;
@@ -74,9 +72,9 @@ namespace UnixTimestamp
             DateTime dt1 = new DateTime(1970, 1, 1, 0, 0, 0);
             DateTime dt2 = new DateTime(iyear, imon, iday, 0, 0, 0);
             int dtdays = (int)(dt2 - dt1).TotalDays;
-            int UT = ((dtdays * 24 * 60 * 60) + (ihour * 60 * 60) + (imin * 60) + isec) - (iUTC * 60 * 60);
+            textBox1.Tag = ((dtdays * 24 * 60 * 60) + (ihour * 60 * 60) + (imin * 60) + isec) - (iUTC * 60 * 60);
 
-            textBox1.Text = sStartString + UT.ToString() + sEndString;
+            textBox1.Text = sCustomString.Replace("%UT%", textBox1.Tag.ToString());
         }
 
         private void textBox1_Click(object sender, EventArgs e)
@@ -93,13 +91,16 @@ namespace UnixTimestamp
         {
             Form2 form2 = new Form2();
             form2.StartPosition = FormStartPosition.CenterParent;
+            form2.GetUT(textBox1.Tag.ToString());
             form2.ShowDialog();
-            switch(form2.DialogResult)
+            switch (form2.DialogResult)
             {
                 case DialogResult.OK:
                     UTUpdata();
+                    this.Show();
                     break;
                 default:
+                    this.Show();
                     break;
             }
         }
